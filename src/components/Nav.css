@@ -1,0 +1,68 @@
+.navbox{
+    display: flex;
+    width: 50%;
+    /* height: fit-content; */
+    border-radius: 25px;
+    align-items: stretch;
+    
+    /* justify-content:stretch; */
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    color: black;
+    position: relative;
+}
+
+.navitems{
+    /* background-color: hotpink; */
+    border-radius: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    width: 280px;
+}
+
+.navitems:hover{
+    background-color: rgba(204, 204, 204, 0.788);
+    text-decoration: underline;
+}
+
+.navitems .inneritem{
+    color: grey;
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: normal;
+}
+
+.Cover{
+    margin-top: 2%;
+    position: relative;
+    text-align: center;
+    /* color: white; */
+    /* clip:rect(5px, 500px, 360px, 0px) */
+
+}
+.slogan{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px ;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border-radius: 25px;
+}
+
+.btn{
+    border-radius: 25px;
+    border-color:violet;
+    color: rgb(190, 5, 190);
+    size: 40px;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px ;
+}

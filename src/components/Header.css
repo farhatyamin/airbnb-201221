@@ -1,0 +1,70 @@
+/* :root{
+    background-color: black;
+    color: white;
+  } */
+  
+  .grid{
+    display: grid;
+    background-color: black;
+    /* height: 5%; */
+    grid-template-columns: 1fr 4fr 2fr;
+    
+  }
+  
+  .mid{
+    display: flex;
+    margin: auto;
+  }
+  .logo{
+    margin: auto;
+  }
+  
+  .li{
+    list-style: none;
+    margin: auto;
+  }
+  
+  .mid li a{
+    display: block;
+    padding: 3px 12px;
+    color: white;
+    text-decoration:none;
+  }
+  .hide{
+    display: none;
+  }
+      
+  .mid li :hover {
+    text-decoration:underline;
+  }
+  
+  .right{
+    display: inline-flex;
+    margin: auto;
+  }
+  
+  .right li a{
+    color: white;
+    display: block;
+    padding: 3px 12px;
+    text-decoration:none;
+  }
+  
+  .right li :hover {
+    text-decoration:underline;
+    border-radius: 5%;
+    background-color: rgb(27, 27, 27);
+  }
+  
+  .Worldicon{
+    margin: auto;
+  }
+  
+  .Searchicon{
+    margin: right ;
+  }
+  
+  .right Worldicon :hover {
+    border-radius: 100%;
+    background-color: rgb(27, 27, 27);
+  }
